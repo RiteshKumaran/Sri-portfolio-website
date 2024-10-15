@@ -1,7 +1,11 @@
 import React, { useState, useEffect, useRef } from "react"; // Added useRef
 import { BsLink45Deg } from "react-icons/bs";
 import { achievements } from "../constants";
-import { AiFillGithub } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiOutlineArrowLeft,
+  AiOutlineArrowRight,
+} from "react-icons/ai";
 import { FaYoutube } from "react-icons/fa";
 import { TiNews } from "react-icons/ti";
 import styles from "../style";
@@ -14,21 +18,24 @@ const Achievements = () => {
   useEffect(() => {
     const updateCardWidth = () => {
       if (containerRef.current) {
-        const card = containerRef.current.querySelector('.achievement-card');
+        const card = containerRef.current.querySelector(".achievement-card");
         if (card) {
           const cardWidth = card.offsetWidth;
-          const cardMargin = parseInt(window.getComputedStyle(card).marginRight, 10); 
+          const cardMargin = parseInt(
+            window.getComputedStyle(card).marginRight,
+            10
+          );
 
-          setCardTotalWidth(cardWidth + cardMargin); 
+          setCardTotalWidth(cardWidth + cardMargin);
         }
       }
     };
 
-    updateCardWidth(); 
-    window.addEventListener("resize", updateCardWidth); 
+    updateCardWidth();
+    window.addEventListener("resize", updateCardWidth);
 
     return () => {
-      window.removeEventListener("resize", updateCardWidth); 
+      window.removeEventListener("resize", updateCardWidth);
     };
   }, []);
 
@@ -55,7 +62,7 @@ const Achievements = () => {
       <div className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}>
         <div className={`${styles.boxWidth}`}>
           <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[45px] text-white ss:leading-[80px] leading-[80px]">
-            Achievements
+            Awards & Participation
           </h1>
         </div>
       </div>
@@ -80,14 +87,14 @@ const Achievements = () => {
                 disabled={isPrevDisabled}
                 className="p-2 bg-gray-700 rounded-full disabled:opacity-50 mx-2"
               >
-                &lt;
+                <AiOutlineArrowLeft />
               </button>
               <button
                 onClick={handleNext}
                 disabled={isNextDisabled}
                 className="p-2 bg-gray-700 rounded-full disabled:opacity-50 mx-2"
               >
-                &gt;
+                <AiOutlineArrowRight />
               </button>
             </div>
           </div>

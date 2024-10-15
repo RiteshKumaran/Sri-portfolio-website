@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { close, parthmittal, menu } from "../assets";
+import { close, sri, menu } from "../assets";
 import { navLinks } from "../constants";
 import { scrollToSection } from "../../lib/helperFunctions";
 
@@ -7,14 +7,10 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full  flex justify-between items-center navbar">
+    <nav className="w-full z-10   flex justify-between items-center navbar">
       {/* Logo */}
-      <a href="#home">
-        <img
-          src={parthmittal}
-          alt="Parth Mittal"
-          className="w-[80px] h-[80px]"
-        />
+      <a href="#home" className="mt-3">
+        <img src={sri} alt="Sri Sudharsan" className="w-[140px] h-[80px]" />
       </a>
 
       {/* List of links */}

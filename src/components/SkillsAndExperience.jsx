@@ -59,8 +59,8 @@ const Content = ({ text, link }) => {
 const ExperienceCard = (props) => {
   return (
     <motion.div
-    whileInView={{ y: [-20, 0], opacity: [0, 1] }}
-    transition={{ duration: 1 }}
+      whileInView={{ y: [-20, 0], opacity: [0, 1] }}
+      transition={{ duration: 1 }}
     >
       <div className="flex flex-row items-center mb-6">
         <img
@@ -109,7 +109,7 @@ const SkillsAndExperience = () => {
         // transition={{ duration: 0.5 }}
       >
         {/* Skills */}
-        <motion.div className={`ml-2 mb-6 ${layout.sectionInfo}`}>
+        <motion.div className={`ml-2 mb-6 flex-1 flex justify-start flex-col`}>
           {skills.map((skill, index) => (
             <SkillCard index={index} {...skill} />
           ))}

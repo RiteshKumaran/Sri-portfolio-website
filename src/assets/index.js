@@ -1,4 +1,4 @@
-import parthmittal from "./parth.svg";
+import sri from "./sri.svg";
 import profilePic from "./profile-pic.jpg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
@@ -22,7 +22,7 @@ import freadom from "./freadom.jpg";
 import ecell from "./ecell.png";
 import bank from "./bank.jpg";
 import gdsc from "./gdsc.png";
-import iris from "./iris.png";
+import hyundai from "./hyundai.jpeg";
 import genesis from "./genesis.jpg";
 import todo from "./todo.jpg";
 import graphql from "./graphql.png";
@@ -34,19 +34,20 @@ import chargeswap from "./chargeswap.png";
 import placeicon from "./place-icon.svg";
 import recruitment from "./recruitment.png";
 import huntly from "./huntly.png";
-import oracle from "./oracle.jpg";
+import sytolab from "./sytolab.jpeg";
 import comicify_ai from "./comicify-ai.png";
 import greentrust from "./green_trust.png";
-import averlon from "./averlon.jpg";
+import toyota from "./toyota.webp";
 import devfolio from "./devfolio.png";
 import pba from "./pba_logo.jpeg";
-import ethglobal from "./ethglobal.png";
-import polkadot from "./polkadot.jpeg";
-import lightspeed from "./lightspeed.png";
-import dennisivy from "./dennisivy.png";
+import atma from "./atma.webp";
+import fkdc from "./fkdc.jpeg";
+import baja from "./baja.png";
+import imperial from "./imperial.png";
 import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
+import srm from "./srm.png";
 
 export {
   quotes,
@@ -65,12 +66,13 @@ export {
   linkedin,
   twitter,
   nitk,
+  srm,
   cluboard,
   cash_flow,
   freadom,
   bank,
   gdsc,
-  iris,
+  hyundai,
   ecell,
   genesis,
   todo,
@@ -79,23 +81,23 @@ export {
   publiclab,
   zulip,
   cdc,
-  parthmittal,
+  sri,
   profilePic,
   chargeswap,
   placeicon,
   recruitment,
   huntly,
-  oracle,
+  sytolab,
   comicify_ai,
   greentrust,
-  averlon,
+  toyota,
   devfolio,
   pba,
-  ethglobal,
-  polkadot,
-  lightspeed,
-  dennisivy,
+  atma,
+  fkdc,
+  baja,
+  imperial,
   manipal,
   icon,
-  ethforall
+  ethforall,
 };

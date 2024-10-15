@@ -1,6 +1,7 @@
 import styles from "../style";
 import { motion } from "framer-motion";
-import { parthmittal } from "../assets";
+import { sri } from "../assets";
+import { SiRimacautomobili } from "react-icons/si";
 
 const Loading = () => {
   return (
@@ -15,7 +16,10 @@ const Loading = () => {
         ease: "easeInOut",
       }}
     >
-      <img src={parthmittal} alt="Parth Mittal" className="w-[80px] h-[80px]" />
+      {/* <div className="flex justify-center items-center  h-[80px] ">
+        <h1 className="text-xl text-gradient">{"{Sri Sudharsan}"}</h1>
+      </div> */}
+      <img src={sri} alt="Sri Sudharsan" className="w-[150px] h-[80px]" />
     </motion.div>
   );
 };
