@@ -1103,7 +1103,8 @@ export const socialMedia = [
 
 export const aboutMe = {
   name: "Sri Sudharsan",
-  tagLine: "MDDE @Sytolab | ex Intern @Hyundai | ex Intern @Toyota | SRM'24",
+  tagLine:
+    "PMO Engineer @Hinduja Leyland Finance | Ex-MDDE @Sytolab | Ex-Intern @Hyundai | Ex-Intern @Toyota | SRM'24",
   intro:
     "A Costing and Design Engineer specializing in the integration of design innovation with cost management in product development. I assess project designs for feasibility, optimize material and manufacturing costs, and ensure that the final product meets both technical and budgetary requirements.",
 };
