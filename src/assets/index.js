@@ -1,5 +1,5 @@
 import sri from "./sri.svg";
-import profilePic from "./profile-pic.jpg";
+import profilePic from "./sri-enhanced.png";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
@@ -35,11 +35,14 @@ import placeicon from "./place-icon.svg";
 import recruitment from "./recruitment.png";
 import huntly from "./huntly.png";
 import sytolab from "./sytolab.jpeg";
+import climec from "./climec.jpeg";
+import hinduja from "./hinduja.svg";
 import comicify_ai from "./comicify-ai.png";
 import greentrust from "./green_trust.png";
 import toyota from "./toyota.webp";
 import devfolio from "./devfolio.png";
-import pba from "./pba_logo.jpeg";
+import pba from "./bala-vidyalaya.jpeg";
+import brittos from "./brittos.jpeg";
 import atma from "./atma.webp";
 import fkdc from "./fkdc.jpeg";
 import baja from "./baja.png";
@@ -62,6 +65,8 @@ export {
   arrowUp,
   discount,
   facebook,
+  climec,
+  hinduja,
   instagram,
   linkedin,
   twitter,
@@ -98,6 +103,7 @@ export {
   baja,
   imperial,
   manipal,
+  brittos,
   icon,
   ethforall,
 };

@@ -1,20 +1,17 @@
+import { AnimatePresence, motion } from "framer-motion";
 import React from "react";
-import { motion, AnimatePresence } from "framer-motion";
 
-import styles from "./style";
 import {
-  Navbar,
-  Hero,
-  Education,
-  SkillsAndExperience,
-  ExtraCurricular,
-  Footer,
-  OpenSource,
-  Projects,
-  BlogPosts,
-  Loading,
   Achievements,
+  BlogPosts,
+  Education,
+  Footer,
+  Hero,
+  Loading,
+  Navbar,
+  SkillsAndExperience,
 } from "./components";
+import styles from "./style";
 
 const App = () => {
   const [isLoading, setIsLoading] = React.useState(true);
@@ -66,7 +63,6 @@ const App = () => {
                 {/* <Projects /> */}
                 <BlogPosts enabled={false} />
                 {/* <OpenSource /> */}
-                <ExtraCurricular />
               </div>
             </div>
             <Footer />

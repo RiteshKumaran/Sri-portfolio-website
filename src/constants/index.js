@@ -1,98 +1,84 @@
 import {
-  nitk,
-  cluboard,
+  atma,
+  baja,
+  brittos,
   cash_flow,
-  gdsc,
-  hyundai,
-  ecell,
-  genesis,
-  portfolio,
-  publiclab,
-  zulip,
   cdc,
   chargeswap,
-  placeicon,
-  recruitment,
-  huntly,
-  sytolab,
+  climec,
+  cluboard,
   comicify_ai,
-  greentrust,
-  toyota,
   devfolio,
-  pba,
-  atma,
+  ecell,
   fkdc,
-  baja,
+  gdsc,
+  genesis,
+  greentrust,
+  hinduja,
+  huntly,
+  hyundai,
   imperial,
-  manipal,
-  icon,
+  pba,
+  placeicon,
+  portfolio,
+  publiclab,
+  recruitment,
   srm,
-  ethforall,
+  sytolab,
+  toyota,
+  zulip,
 } from "../assets";
 
 import {
-  AiFillGithub,
+  AiFillHtml5,
   AiFillInstagram,
   AiFillLinkedin,
   AiFillMail,
-  AiOutlineTwitter,
-  AiFillHtml5,
-  AiOutlineGitlab,
 } from "react-icons/ai";
 
 import {
-  SiDjango,
-  SiJavascript,
-  SiBootstrap,
-  SiReact,
-  SiTailwindcss,
-  SiGraphql,
-  SiCplusplus,
-  SiRubyonrails,
-  SiJquery,
-  SiVisualstudiocode,
-  SiPostman,
-  SiGit,
-  SiSolidity,
-  SiNetlify,
-  SiChartdotjs,
-  SiVite,
   SiArduino,
-  SiWeb3Dotjs,
-  SiIpfs,
-  SiDotnet,
-  SiTwilio,
-  SiFlutter,
-  SiReplit,
-  SiFlask,
-  SiFigma,
-  SiGooglemaps,
-  SiOpenai,
-  SiGooglecloud,
-  SiNextdotjs,
-  SiMicrosoftazure,
   SiAutodesk,
-  SiSolid,
+  SiBootstrap,
+  SiChartdotjs,
+  SiDjango,
+  SiDotnet,
+  SiFigma,
+  SiFlask,
+  SiFlutter,
+  SiGooglecloud,
+  SiGooglemaps,
+  SiIpfs,
+  SiJavascript,
+  SiJquery,
   SiMicrosoftexcel,
+  SiMicrosoftoffice,
+  SiMicrosoftpowerpoint,
   SiMysql,
-  SiC,
+  SiNextdotjs,
+  SiOpenai,
   SiPowerbi,
   SiPython,
+  SiReact,
+  SiReplit,
+  SiRubyonrails,
+  SiSolid,
+  SiSolidity,
+  SiTailwindcss,
+  SiTwilio,
+  SiWeb3Dotjs,
 } from "react-icons/si";
 
-import { FaHardHat, FaRust, FaHandshake } from "react-icons/fa";
+import { FaHandshake, FaHardHat } from "react-icons/fa";
 
-import { IoIosNotificationsOutline, IoIosPeople } from "react-icons/io";
 import { FaQuestion } from "react-icons/fa";
-import { IoAnalytics } from "react-icons/io5";
 import { GiPublicSpeaker } from "react-icons/gi";
+import { IoIosNotificationsOutline, IoIosPeople } from "react-icons/io";
+import { IoAnalytics } from "react-icons/io5";
 
-import { FaGolang } from "react-icons/fa6";
+import { DiCss3, DiMsqlServer } from "react-icons/di";
 
-import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
-
-export const resumeLink =
-  "https://drive.google.com/file/d/1vkxyMDB5_KpMwt4QXFgT2aqdRizr8Czh/view?usp=sharing";
+export const resumeLink = "/sri-resume.pdf";
 export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
 
 export const callToAction =
@@ -111,11 +97,6 @@ export const navLinks = [
     id: "achievements",
     title: "Awards & Participation",
   },
-
-  {
-    id: "extraCurricular",
-    title: "Extra Curricular",
-  },
   {
     id: "contactMe",
     title: "Contact Me",
@@ -128,18 +109,24 @@ export const educationList = [
     icon: srm,
     title: "SRM Institute of Science and Technology kattankulathur, Chennai",
     degree: "Bachelor of Technology",
-    duration: "December 2020 - July 2024 doubt",
+    duration: "August 2020 - July 2024",
     content1: "Major: Automobile Engineering",
     content2: "CGPA: 8.2",
   },
   {
     id: "education-2",
     icon: pba,
-    title: "Polkadot Blockchain Academy doubt",
+    title:
+      "12th - Sree Shankara Bala vidhyalaya golden jubilee school and junior college",
     degree: "",
-    duration: "May 2024 - June 2024",
-    content1:
-      "Graduated with a distinction in the fifth cohort of the Polkadot Blockchain Academy at the National University of Singapore.",
+    duration: "June 2017 - June 2019",
+  },
+  {
+    id: "education-3",
+    icon: brittos,
+    title: "10th - St Brittos academy Velachery",
+    degree: "",
+    duration: "May 2014 - May 2017",
   },
 ];
 
@@ -194,26 +181,36 @@ export const skills = [
       },
       {
         id: "pl-2",
+        icon: SiMicrosoftoffice,
+        name: "Microsoft Office",
+      },
+      {
+        id: "pl-3",
+        icon: SiMicrosoftpowerpoint,
+        name: "PowerPoint",
+      },
+      {
+        id: "pl-4",
         icon: SiMysql,
         name: "MySQL",
       },
       {
-        id: "pl-3",
+        id: "pl-5",
         icon: SiPowerbi,
         name: "PowerBI",
       },
       {
-        id: "pl-4",
+        id: "pl-6",
         icon: SiPython,
         name: "Python",
       },
       {
-        id: "pl-5",
+        id: "pl-7",
         icon: SiAutodesk,
         name: "Autodesk Inventor",
       },
       {
-        id: "pl-6",
+        id: "pl-8",
         icon: SiSolid,
         name: "SolidWorks",
       },
@@ -253,28 +250,23 @@ export const skills = [
 
 export const experiences = [
   {
-    organisation: "Sytolab, Banglore",
-    logo: sytolab,
-    link: "https://www.oracle.com/in/",
+    organisation: "Hinduja Leyland Finance, Hosur",
+    logo: hinduja,
     positions: [
       {
-        title: "Mechanical Design and Development Engineer",
-        duration: "Mar 2024 - present",
+        title: "PMO Engineer",
+        duration: "Feb 2025 - present",
         content: [
           {
-            text: "Creating 2D and 3D models of Bio-Mechanical devices,ensuring that all designs meet industry standards and are optimized for both functionability and manufacturability",
+            text: "Manage full project lifecycle for commercial engine manufacturing, ensuring on-time delivery and compliance with quality standards",
             link: "",
           },
           {
-            text: "Designing intricate machine parts are that with biological systems, such as prosthetics,medical implants,or lab equipment used for bio-reasearch",
+            text: "Coordinate with cross-functional teams to streamline workflows, reducing process bottlenecks by 10%",
             link: "",
           },
           {
-            text: "Utilizing advanced CAD software (SolidWorks,Autocad Inventor) to produce detail schematic and prototypes for bio-machine interfaces",
-            link: "",
-          },
-          {
-            text: "Since my ﬁnal year project was based on materials for thermal conductivity and corrosion resistance, I can work on materials to, procuring materials and had experience in hands on manufacturing",
+            text: "Develop and monitor project schedules, budgets, and resource allocations",
             link: "",
           },
         ],
@@ -282,13 +274,67 @@ export const experiences = [
     ],
   },
   {
-    organisation: "Toyota Kirloskar Motor",
+    organisation: "Climec Labs, Chennai",
+    logo: climec,
+    link: "https://www.oracle.com/in/",
+    positions: [
+      {
+        title: "Mechanical Designer & Project Coordinator",
+        duration: "Oct 2024 - Dec 2024",
+        content: [
+          {
+            text: "Translated customer requirements into detailed design proposals using AutoCAD and SolidWorks, achieving a 95% approval rate",
+            link: "",
+          },
+          {
+            text: "Oversaw end-to-end manufacturing operations, optimizing supply chain logistics to reduce lead time by 12%",
+            link: "",
+          },
+          {
+            text: "Implemented quality control measures that reduced manufacturing defects by 8%",
+            link: "",
+          },
+          {
+            text: "Pitched and presented custom design solutions, expanding client base by 20%",
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    organisation: "Sytolab, Bengaluru",
+    logo: sytolab,
+    link: "https://www.oracle.com/in/",
+    positions: [
+      {
+        title: "Mechanical Engineer",
+        duration: "May 2024 - Sep 2024",
+        content: [
+          {
+            text: "Created 2D and 3D models of Bio-Mechanical devices,ensuring that all designs meet industry standards and are optimized for both functionability and manufacturability",
+            link: "",
+          },
+          {
+            text: "Designed intricate machine parts are that with biological systems, such as prosthetics,medical implants,or lab equipment used for bio-reasearch",
+            link: "",
+          },
+          {
+            text: "Utilized advanced CAD software (SolidWorks,Autocad Inventor) to produce detail schematic and prototypes for bio-machine interfaces",
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    organisation: "Toyota Kirloskar Motor, Bengaluru",
     logo: toyota,
     link: "https://averlon.ai/",
     positions: [
       {
         title: "Quality Check Intern",
-        duration: "Feb 2024 - Feb 2024(doubt)",
+        duration: "Mar 2024 - May 2024",
         content: [
           {
             text: "Assembled Cars like CMPV,Fortuner, Innova crysta.",
@@ -310,7 +356,7 @@ export const experiences = [
     positions: [
       {
         title: "Quality Check Intern",
-        duration: "Jul 2023 - Apr 2024",
+        duration: "Jun 2023 - Jul 2023",
         content: [
           {
             text: "Month long internship where I assembled i10,i20,Aura and all new Verna",
@@ -1059,5 +1105,5 @@ export const aboutMe = {
   name: "Sri Sudharsan",
   tagLine: "MDDE @Sytolab | ex Intern @Hyundai | ex Intern @Toyota | SRM'24",
   intro:
-    "Recently completed graduate with 3 months of experience in product cost estimation, sourcing, team management, supplier quality and in Auto component manufacturing process.",
+    "A Costing and Design Engineer specializing in the integration of design innovation with cost management in product development. I assess project designs for feasibility, optimize material and manufacturing costs, and ensure that the final product meets both technical and budgetary requirements.",
 };
